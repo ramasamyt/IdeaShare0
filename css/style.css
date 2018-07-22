@@ -1,0 +1,146 @@
+
+/* ---------------------
+Header Styles 
+-----------------------*/
+
+/* Below: Color and Size of the banner */
+.main-header {
+    z-index: 1;
+    background: #3acec2;
+    padding: 1em 0;
+    text-align: center; /* center banner objects like logo, links,..*/
+    width: 100%;
+    position: fixed;
+    }
+
+/* Below: Space between navigiation link at top three links */
+.logo a,
+.main-nav a {
+    padding: 10px 15px;
+    display: block;
+    }
+     
+/* top logo and nav links moving in blocks */
+.logo,
+.main-nav, 
+.main-nav li {
+    display: inline-block; /*All main-nav links are together*/
+    } 
+
+.logo{ /* Logo Size */
+    width: 240px;
+    margin-left: 10px;
+    margin-right: 100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    }
+
+.main-nav li{
+    margin-right: 15px; /* Space between main-nav links */
+    }
+
+
+/* ---------------------------
+Main Article Styles
+----------------------------- */
+
+/*  My Ideas heading spacing  */
+.myideas {
+    padding: 10px 20px;
+    }
+
+/* location of idea list */
+.wrapper {
+    width:60%;
+    margin: 0 auto;
+    padding-top:100px;
+    padding-bottom: 60px; /* for clearing bottom text above the footer */
+    overflow:auto; /* containing the floated element */
+    }
+
+/* side by side ideas */
+.idea {
+    display: inline-block;
+    padding: 30px;
+    }
+
+/* Size of the image on idea list */
+.idea-img {
+    height: 170px;
+    width: 200px;
+    }
+
+/*--------------------------------
+Thumps Up and Down Properties
+----------------------------------*/
+
+#up1, #up2, #up3 {
+    color:green;
+    font-weight: bold; 
+    }
+
+#dn1, #dn2, #dn3 {
+    color:red;
+    font-weight: bold; 
+    }
+ 
+
+/* ------------------------------
+Footer Styles 
+--------------------------------- */
+
+.main-footer {
+    text-align: center;
+    padding: 1em 0;
+    background: #3acec2;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    }
+
+
+/* -------------------------------
+for dropdown button sort by 
+----------------------------------*/
+
+
+
+/* Dropdown Button */
+.dropbtn {
+    background-color: rgb(228, 228, 228);
+    color: black;
+    padding: 10px;
+    font-size: 15px;
+    border:none;
+    border-radius: 10px;
+    margin-left:20px;   
+    }
+ 
+/* Dropdown Content */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(228, 228, 228);
+    min-width: 120px;
+    border-radius:10px;
+    margin-left: 20px;
+    }
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 10px 20px;
+    display:block;
+    border-radius:10px;
+    }
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #3acec2;} 
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;} 
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #3acec2;} 
+
+ 
