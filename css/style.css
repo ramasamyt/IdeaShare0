@@ -61,7 +61,8 @@ Main Article Styles
 
 /* side by side ideas */
 .idea {
-    display: inline-block;
+    float: left;
+    width: 33%;
     padding: 20px;
     }
 
@@ -158,9 +159,26 @@ for dropdown button sort by
  Media Query - For Mobile Devices
  ----------------------------------*/
 
-@media only screen and (max-width: 796px){
-    .wrapper {
-        padding-top: 180px;
+@media (max-width: 1140px) {
+    .idea {
+        width: 50%;
     }
 }
- 
+@media (max-width:810px){
+    .wrapper{
+        padding-top: 150px;
+    }
+}
+@media (max-width: 780px) {
+    .wrapper {
+        padding-top: 150px;
+    }
+    .idea {
+        width: 100%;
+    }
+}
+@media (max-width: 456px) {
+    .wrapper {
+        padding-top: 200px;
+    }
+}
